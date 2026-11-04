@@ -1,0 +1,7 @@
+name = "peg_counterexamples"
+version = "0.1.0"
+defaultTargets = ["PEG"]
+moreLeanArgs = ["-DwarningAsError=true"]
+
+[[lean_lib]]
+name = "PEG"
